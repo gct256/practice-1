@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "flow",
+    "react",
+    "stage-2",
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "> 0.25%",
+            "ie >= 11"
+          ]
+        }
+      }
+    ]
+  ]
+}
